@@ -1,11 +1,5 @@
 
-@media only screen and (max-width: 600px) {
-    .navigationbar {grid-area: 1 / span 6;}
-    .navbars {grid-area: 2 / span 6;}
-    .improvecharge {grid-area: 3 / span 6;}
-    .salary {grid-area: 4 / span 6;}
-    .products {grid-area: 5 / span 6;}
-  }
+
 .navigationbar{
     display: flex;
     max-width: 100%;
