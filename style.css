@@ -1,0 +1,295 @@
+
+
+.navigationbar{
+    display: flex;
+    max-width: 100%;
+    background-color: rgb(228, 228, 248);
+}
+.firstpage{
+    background-color: rgb(228, 228, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.navbars{
+    display: flex;
+}
+.navigationlink{
+    display: flex;
+    gap:5cm ;
+    list-style: none;
+    margin-top: 2cm;
+    margin-left: 5cm;
+    
+    
+}
+.navigationlink a{
+    color: black;
+    text-decoration: none;
+}
+.navigationlink a:hover{
+    color: blue;
+}
+.navigationbutton{
+    margin-top: 1.5cm;
+    margin-left: 2cm;
+}
+#login{
+    border: none;
+    background-color: none;
+
+}
+#login:hover{
+    color: blue;
+}
+#signup{
+    margin-left: 2cm;
+    height: 1.5cm;
+    width: 3.5cm;
+    background-color: rgb(245, 186, 196);
+    border-radius: 0.5cm;
+    border: none;
+    color: white;
+}
+#signup:hover{
+    background-color: black;
+}
+.improvecharge{
+    display: flex;
+    margin-top: 3cm;
+    background-color: rgb(228, 228, 248);
+    
+    
+}
+.salarytestmonials{
+    
+    padding-right: -1cm;
+    rotate: -10deg;
+    margin-left: 5cm;
+}
+.charge{
+    color: rgb(3, 3, 80);
+    margin-left: 5.9cm;
+    max-width: 100%;
+    font-size: xx-large;
+}
+#chargelink{
+    color: red;
+}
+#contactuslink{
+    color: rgb(3, 3, 80);
+    font-weight: bold;  
+}
+.roger{
+    display: flex;
+    margin-left: 6cm;
+    
+}
+#imageroger{
+    height: 2cm;
+    border: solid;
+    border-radius: 50%;
+}
+#workingdays{
+    margin-top: 3cm;
+    margin-left: 2.5cm;
+}
+.salary{
+    display: block;
+}
+.salary{
+    margin-left: 6cm;
+    margin-top: 2cm;
+    display: flex;
+}
+#salaryimage{
+    margin-left: 2cm;
+    height: 6cm;
+    width: 6.5cm;
+    /* border: solid; */
+    border-radius: 1cm;
+}
+.speed{
+    display: flex;
+    margin-left: 6cm;
+    /* border: solid; */
+    width: 6cm;
+    position: absolute;
+    margin-top: -2cm;
+    background-color: white;
+    border-radius: 0.5cm;
+}
+#percentage{
+    margin-left: 1.5cm;
+}
+.softwarebusiness{
+    margin-top: 4cm;
+}
+.softwareparag{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.logos img{
+    height: 3cm;
+    
+}
+#microimage{
+    height: 1.5cm;
+    margin-bottom: 0.9cm;
+    margin-left: 5.2cm;
+}
+#logosimage{
+    
+    margin-left: 1.5cm;
+}
+.products{
+    margin-top: 3cm;
+    background-color: rgb(228, 228, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.productsparag{
+    text-align: center;
+}
+.productsweweorkwith{
+    display: flex;
+    margin-left: 5.9cm;
+}
+.easyinterface{
+    border: solid pink;
+    background-color: white;
+    height: 7cm;
+    width: 9cm;
+}
+#staricon{
+    margin-left: 3.5cm;
+    /* border: solid; */
+    margin-top: 1cm ;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 50%;
+    background-color: rgb(248, 219, 224);
+}
+.securedtransfers{
+   
+    margin-left: 5cm;
+    background-color: white;
+    height: 7cm;
+    width: 9cm;
+}
+#equalizer{
+    margin-left: 3.5cm;
+    margin-top: 1cm;
+    border-radius: 50%;
+    background-color: rgb(176, 250, 250);
+}
+.support{
+    
+    margin-left: 5cm;
+    background-color: white;
+    height: 7cm;
+    width: 9cm;
+}
+#leaficon{
+    margin-left:3.5cm ;
+    margin-top: 1cm;
+    /* border: solid; */
+    height: 1cm;
+    width: 1cm;
+    border-radius: 50%;
+    background-color: rgb(248, 219, 224);
+}
+#productheading{
+    text-align: center;
+}
+#prodparagrapgh{
+    text-align: center;
+}
+#wordproduct{
+    color: red;
+    text-decoration: underline;
+}
+.innumbers{
+    display: flex;
+    margin-top: 3cm;
+    margin-left: 6cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+}
+.actualnumbers{
+    display: flex;
+}
+#ditionumbers{
+    color: red;
+    text-decoration: underline;
+}
+#numberstext{
+    
+    font-weight: bold;
+}
+.activeuser{
+    margin-left: 3cm;
+}
+.watching{
+    display: flex;
+}
+#watchcreateaccount{
+
+}
+.emptycontainer{
+    border: solid;
+    width: 6cm;
+}
+.studywithme{
+    display: flex;
+}
+.howtocreateaccount{
+    margin-left: 4cm;
+}
+.creatinganaccount{
+    border: solid;
+    position: absolute;
+    margin-left: 2cm;
+}
+.appinterface{
+    display: flex;
+}
+.mobileapp{
+    margin-left: 6cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: rgb(1, 1, 44);
+}
+#knowbutton{
+    height: 2cm;
+    width: 5cm;
+    border-radius:0.5cm;
+    color: white;
+    background-color:  rgb(1, 1, 44);
+    font-weight: bolder;
+
+}
+.settingsaccount{
+    margin-left: 5cm;
+}
+.designer{
+    display: flex;
+}
+.languagesetting{
+    display: flex;
+}
+.boostsocialapp{
+    margin-left: 5cm;
+}
+.businesspeople{
+    display: flex;
+    margin-top: 3cm;
+}
+.downloadmoileapp{
+    display: flex;
+    margin-top: 3cm;
+}
+.footeratend{
+    display: flex;
+}
