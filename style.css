@@ -1,5 +1,11 @@
 
-
+@media only screen and (max-width: 600px) {
+    .navigationbar {grid-area: 1 / span 6;}
+    .navbars {grid-area: 2 / span 6;}
+    .improvecharge {grid-area: 3 / span 6;}
+    .salary {grid-area: 4 / span 6;}
+    .products {grid-area: 5 / span 6;}
+  }
 .navigationbar{
     display: flex;
     max-width: 100%;
@@ -35,7 +41,10 @@
 }
 #login{
     border: none;
-    background-color: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
 
 }
 #login:hover{
@@ -49,9 +58,38 @@
     border-radius: 0.5cm;
     border: none;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 #signup:hover{
     background-color: black;
+}
+#applebutton{
+    width: 6cm;
+    height: 2cm;
+    color: white;
+    background-color: rgb(7, 7, 90);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 0.5cm;
+    border: none;
+    
+}
+#playstorebutton{
+    width: 6cm;
+    height: 2cm;
+    margin-left: 2cm;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 0.5cm;
+    border: solid 1px rgb(7, 7, 90);
+    
+}
+#playstorewords{
+    margin-top: -3cm;
+    color: rgb(7, 7, 90);
 }
 .improvecharge{
     display: flex;
@@ -237,10 +275,10 @@
 #watchcreateaccount{
 
 }
-.emptycontainer{
+/* .emptycontainer{
     border: solid;
-    width: 6cm;
-}
+    width: 7cm; */
+
 .studywithme{
     display: flex;
 }
@@ -249,12 +287,66 @@
 }
 .creatinganaccount{
     border: solid;
-    position: absolute;
+    background-color: white;
+    width: 15cm;
+    border-radius: 0.5cm;
     margin-left: 2cm;
+}
+#watchcreateaccount{
+    width: 3cm;
+    height: 1cm;
+    border-radius: 1cm;
+    border: none;
+    color: white;
+    background-color: rgb(79, 79, 241);
+    position: absolute;
+    margin-left: -3.5cm;
+    margin-top: 2cm;
+}
+#blueman{
+    margin-left: 2cm;
+    margin-top: 1cm;
+    border: solid 4px rgb(51, 51, 231);
+    border-radius: 50%;
+}
+.anchorstudywithme{
+    margin-left: 2cm;
+    margin-top: 2cm;
+}
+#anchoricon{
+    margin-left: 1cm;
+}
+#joinbutton{
+    width: 3.5cm;
+    height: 1.5cm;
+    border-radius: 2cm;
+    background-color: rgb(228, 100, 143);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+#womancircle{
+    margin-left: 1.5cm;
+    margin-top: -1cm;
+    border: solid 4px rgb(51, 51, 231);
+    border-radius: 50%;
+}
+.helpingcusstomers{
+    text-align: center;
+    margin-top: 3cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+#textcolor{
+    color: red;
+    text-decoration: underline;
 }
 .appinterface{
     display: flex;
+    margin-top: 2cm;
 }
+
 .mobileapp{
     margin-left: 6cm;
     font-family: Arial, Helvetica, sans-serif;
@@ -272,24 +364,185 @@
 }
 .settingsaccount{
     margin-left: 5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    rotate: 15deg;
 }
 .designer{
     display: flex;
+    margin-top: 1.5cm;
+}
+#persondesigner{
+    margin-top: -0.4cm;
+    margin-left: 1cm;
+}
+#worddesigner{
+    font-weight: lighter;
+    color: grey;
+}
+#designerarrow{
+   margin-left: 3cm;
+   color: grey;
 }
 .languagesetting{
     display: flex;
 }
+#frawnface{
+    color: orange;
+    margin-top: 0.7cm;
+    
+}
+#lang{
+    margin-left: 0.5cm;
+}
+#english{
+    margin-left: 1cm;
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 0.8cm;
+    color: grey;
+}
+#designerarrows{
+    margin-top: 0.6cm;
+    margin-left: 2cm;
+   color: grey;
+}
 .boostsocialapp{
     margin-left: 5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-top: 2.5cm;
+    rotate: 15deg;
+}
+#boostsocialtext{
+    text-align: center;
+}
+#loginsocials{
+    margin-left: 1cm;
+    width: 5.6cm;
+    height: 1.5cm;
+    border-radius: 0.5cm;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    border: solid 2px;
+}
+#signupsocials{
+    margin-left: 1cm;
+    width: 5.6cm;
+    height: 1.5cm;
+    margin-top: 0.5cm;
+    border-radius: 0.5cm;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: palevioletred;
+    border: none;
+}
+.profile{
+    margin-top: 2cm;
+}
+#profilepic{
+    border: solid;
+    margin-left: 1.5cm;
+    width: 4cm;
+    height: 4cm;
+    border-radius: 50%;
+    margin-top: -2.6cm;
+}
+#notificationbell{
+    margin-left: 6cm;
+}
+#leftarrowpic{
+    margin-top: -2cm;
+    
+}
+.iconprofile{
+    margin-top: 1.5cm;
 }
 .businesspeople{
     display: flex;
     margin-top: 3cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 6cm;
+    justify-content: space-between;
 }
+.wordsfromclients{
+    text-align: center;
+    margin-top: 2cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+#somewords{
+    color: red;
+    text-decoration: underline;
+}
+.edwinbusinessman{
+    border: solid pink;
+    width: 17cm;
+    padding: 30px;
+    color: rgb(2, 2, 44);
+}
+#edwinimage{
+    /* border: solid; */
+    border-radius: 50%;
+    width: 5cm;
+    height: 5cm;
+}
+.jecsonbusinessman{
+    color: rgb(2, 2, 44);
+    margin-right: 2cm;
+}
+.starrating{
+   margin-left: 15cm;
+   position: absolute;
+   margin-top: -10cm;
+}
+#clientwords{
+    font-style: italic;
+}
+
+
 .downloadmoileapp{
     display: flex;
     margin-top: 3cm;
+    margin-left: 6cm;
+   
+}
+.appusersnumbers{
+    margin-left: 6cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    color: rgb(2, 2, 44);
+}
+#linkcontactus{
+    font-weight: lighter;
+    color: grey;
+}
+#contactus{
+    color: rgb(2, 2, 44);
 }
 .footeratend{
     display: flex;
+    justify-content: space-between;
+    border: solid;
+    padding: 2cm;
+    background-color: rgb(2, 2, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-top: 3cm;
+    
+}
+.footeratend ul{
+    list-style: none;
+    color: white;
+}
+#footerheading{
+    color: grey;
+}
+.footericons{
+   margin-top: 2cm;
+    color: white;
+    font-size: x-large;
 }
